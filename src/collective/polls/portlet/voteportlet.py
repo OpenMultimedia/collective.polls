@@ -80,6 +80,7 @@ class Assignment(base.Assignment):
 
     header = u""
     poll = None
+    show_closed = False
 
     def __init__(self, poll, header=u"", show_closed=False):
         self.header = header
